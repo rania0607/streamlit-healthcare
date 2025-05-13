@@ -51,7 +51,7 @@ if st.button("Analyse et Visualisation"):
 
     st.subheader("Chargement des données")
     try:
-        df = pd.read_csv("C:/Users/dell/Desktop/python/Machine learning/Project healthcare/healthcare-dataset-stroke-data.csv")
+        df = pd.read_csv("healthcare-dataset-stroke-data.csv")
         st.write("Aperçu du dataset :")
         st.dataframe(df.head())
 
